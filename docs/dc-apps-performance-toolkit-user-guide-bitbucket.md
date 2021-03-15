@@ -269,7 +269,6 @@ To populate the database with SQL:
 1. Review the following `Variables section` of the script:
 
     ``` bash
-    INSTALL_PSQL_CMD="amazon-linux-extras install -y postgresql10"
     DB_CONFIG="/media/atl/bitbucket/shared/bitbucket.properties"
 
     # Depending on BITBUCKET installation directory
