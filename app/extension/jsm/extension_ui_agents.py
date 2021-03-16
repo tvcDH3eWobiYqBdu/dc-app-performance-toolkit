@@ -19,6 +19,6 @@ def app_specific_action(webdriver, datasets):
             # Wait for summary field visible
             page.wait_until_visible((By.ID, "summary-val"))
             # Wait for you app-specific UI element by ID selector
-            page.wait_until_visible((By.ID, "ID_OF_YOUR_APP_SPECIFIC_UI_ELEMENT"))
+            page.wait_until_visible((By.ID, "sendCannedNotifBtn"))
         sub_measure()
     measure()
